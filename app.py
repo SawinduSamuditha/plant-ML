@@ -8,7 +8,7 @@ from flask_cors import CORS
 
 
 app = Flask(__name__)
-CORS(app, origins="*")  # Allow all origins for development
+CORS(app, origins="*`")  # Allow all origins for development
 # Load the model and labels
 model = tf.keras.models.load_model("models/plant_disease_recog_model_pwp.keras")
 model = tf.keras.models.load_model("models/plant_disease_recog_model_pwp.keras")
